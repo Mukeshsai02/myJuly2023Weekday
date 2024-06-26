@@ -23,7 +23,7 @@ jobs:
         projectBaseDir: .
         args: >
           -Dsonar.organization=sonar_rel
-          -Dsonar.projectKey=57435cc4834218f29fc37027e256360197dcaf11
+          -Dsonar.projectKey=sonar_rel
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
